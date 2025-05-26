@@ -1,0 +1,17 @@
+{
+    "appId": "com.h-shamloo.pomodorotimer",
+    "files": ["dist-electron", "dist-react", "src/electron"],
+    "icon": "./desktopIcon.png",
+    "mac": {
+        "target": "dmg"
+    },
+    "linux": {
+        "target": "AppImage",
+        "category": "Utility"
+    }, 
+
+    "asar": true,              
+    "win": {
+        "target":"nsis" 
+    }
+}
